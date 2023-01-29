@@ -12,6 +12,7 @@
   git checkout 分支名称  
 ### 分支合并（可能冲突）  
   git merge 要合并的分支  
+  git merge 分支名称 --no-ff -m " 本次合并添加的注释信息"  
 ### 删除分支
   git branch -d 分支名称  
 ### 给远程仓库起别名   
