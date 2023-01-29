@@ -18,3 +18,6 @@
   git remote add origin 远程仓库地址  
 ### 向远程仓库推送代码  
   git push -u origin 分支名称  
+### 合并版本记录
+  git rebase -i 版本号 (合并版本号与之间所有版本到目前版本)  
+  git rebase -i HEAD~数字 (合并目前版本前数个版本到当前版本)  
