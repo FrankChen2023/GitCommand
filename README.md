@@ -1,6 +1,6 @@
 ### 回滚至之前版本  
   git log  
-  git reset hard -- 版本号  
+  git reset --hard 版本号  
 ### 回滚至之后版本   
   git reflog  
   git reset hard -- 版本号  
