@@ -17,6 +17,8 @@
   git branch -d 分支名称  
 ### 给远程仓库起别名   
   git remote add origin 远程仓库地址  
+### 校验本地代码与远程仓库  
+  git remote show origin  
 ### 向远程仓库推送代码  
   git push -u origin 分支名称  
 ### 合并版本记录
