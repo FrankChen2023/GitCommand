@@ -4,6 +4,9 @@
 ### 回滚至之后版本   
   git reflog  
   git reset --hard 版本号  
+### 取消跟踪文件/文件夹     
+  git rm --cached <filename>  
+  git rm -r --cached <folder>  
 ### 查看分支  
   git branch  
 ### 创建分支 
